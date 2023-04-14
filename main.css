@@ -1,0 +1,62 @@
+body, 
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 100px 50px 100px 70px;
+
+}
+
+.column-container {
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+
+}
+
+.logo1, 
+.logo2, 
+.logo3,
+.logo4 {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+
+}
+
+.logo1 {
+    background-color: rgb(51, 210, 210)
+
+}
+
+.logo2 {
+    background-color: rgba(42, 85, 224, 0.835)
+
+}
+.logo3 {
+    background-color: orangered
+
+}
+.logo4 {
+    background-color: rgb(127, 132, 132)
+
+}
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    color: orangered;
+    font-weight: 400;
+}
+
+
+.logo-paragraph {
+    color:rgb(76, 74, 74);
+    margin-top: 20px;
+}
